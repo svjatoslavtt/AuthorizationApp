@@ -1,0 +1,44 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #fff;
+  padding: 20px 30px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.submitButton {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.forgotPassword {
+  margin-top: 30px;
+  color: #6f6f6f;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+
+  & > a:first-child > span {
+    background: #30bf60;
+    color: #fff;
+  }
+
+  span {
+    display: block;
+    background: #f3f3f3;
+    border-radius: 5px;
+    padding: 4px 10px;
+    color: #656464;
+  }
+
+  span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

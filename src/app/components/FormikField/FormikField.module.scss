@@ -1,0 +1,20 @@
+.FormikField {
+  margin-top: 15px;
+}
+
+.formGroupCheckbox {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -3px;
+
+  & > label {
+    cursor: pointer;
+    margin-left: 15px;
+  }
+
+  & > span {
+    padding: 0;
+  }
+}

@@ -1,0 +1,30 @@
+.container {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 30px 30px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.rowTitle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px dashed #ccc;
+  padding: 10px 0;
+  font-style: italic;
+  font-weight: 500;
+
+  span {
+    font-style: normal;
+    font-weight: normal;
+    color: #139411;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 30px;
+  }
+}

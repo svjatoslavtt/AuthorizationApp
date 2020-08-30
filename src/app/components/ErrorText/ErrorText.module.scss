@@ -1,0 +1,14 @@
+.errorText {
+  margin-top: 10px;
+
+  & > ul {
+    font-size: 13px;
+    color: #f50356;
+    white-space: pre-line;
+
+    li {
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+  }
+}
